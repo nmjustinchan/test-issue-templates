@@ -1,0 +1,36 @@
+name: Task
+description: Create a task.
+title: "[Task]: "
+type: "Task"
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Brief Summary
+      description: Provide a brief summary of the task.
+      placeholder: ex. Implement feature X
+    validations:
+      required: true
+
+  - type: textarea
+    id: todo-list
+    attributes:
+      label: To-Do List
+      description: List the tasks that need to be completed.
+      placeholder: "- Task 1\n- Task 2\n- Task 3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pr-list
+    attributes:
+      label: List of PRs
+      description: List any related pull requests.
+      placeholder: "- PR #1\n- PR #2\n- PR #3"
+
+  - type: textarea
+    id: blocks
+    attributes:
+      label: Blocks
+      description: List any blockers or dependencies.
+      placeholder: "- Blocker 1\n- Blocker 2\n- Blocker 3"
