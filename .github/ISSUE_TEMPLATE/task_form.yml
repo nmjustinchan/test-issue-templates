@@ -11,13 +11,13 @@ body:
     validations:
       required: true
 
-  # - type: checkboxes
-  #   id: is-bug
-  #   attributes:
-  #     label: Is this a bug?
-  #     description: Check if this is a bug.
-  #     options:
-  #       - label: Yes
+  - type: checkboxes
+    id: is-bug
+    attributes:
+      label: Is this a bug?
+      description: Check if this is a bug.
+      options:
+        - label: Yes
 
   - type: input
     id: bug-link
