@@ -29,21 +29,19 @@ body:
         - label: "macOS"
         - label: "Other"
 
-  - type: markdown
+  - type: checkboxes
+    id: component
     attributes:
-      value: "### What component/service is this issue related to?"
-
-  - type: markdown
-    attributes:
-      value: |
-        - [] Bridge UI
-        - [] L1 RPC
-        - [] L2 RPC
-        - [] L1 Relayer
-        - [] L2 Relayer
-        - [] L2 Explorer
-        - [] Safe
-        - [] Documentation
+      label: What component/service is this issue related to?
+      options:
+        - label: "Bridge UI"
+        - label: "L1 RPC"
+        - label: "L2 RPC"
+        - label: "L1 Relayer"
+        - label: "L2 Relayer"
+        - label: "L2 Explorer"
+        - label: "Safe"
+        - label: "Documentation"
 
   - type: textarea
     id: logs
