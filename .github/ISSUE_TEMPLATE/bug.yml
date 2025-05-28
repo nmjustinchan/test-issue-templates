@@ -29,6 +29,22 @@ body:
         - label: "macOS"
         - label: "Other"
 
+  - type: markdown
+    attributes:
+      value: "### What component/service is this issue related to?"
+
+  - type: markdown
+    attributes:
+      value: |
+        - [] Bridge UI
+        - [] L1 RPC
+        - [] L2 RPC
+        - [] L1 Relayer
+        - [] L2 Relayer
+        - [] L2 Explorer
+        - [] Safe
+        - [] Documentation
+
   - type: textarea
     id: logs
     attributes:
@@ -52,3 +68,7 @@ body:
   - type: markdown
     attributes:
       value: ">Please try to troubleshoot the issue with our documentation - https://docs.surge.wtf/docs/troubleshooting first."
+
+  - type: markdown
+    attributes:
+      value: "## Thank you for submitting an issue! We will get back to you as soon as possible."
