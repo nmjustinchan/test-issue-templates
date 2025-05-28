@@ -1,8 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here. 
+  - name: Surge Documentation
+    url: https://docs.surge.wtf/
+    about: Learn more about Surge here.
+  - name: Nethermind Website
+    url: https://nethermind.io/
+    about: Learn more about Nethermind here.
+  - name: Everything Ethereum R1
+    url: https://t.co/Ke9pYZgNZ2
+    about: Join Ethereum R1 Telegram channel here.
