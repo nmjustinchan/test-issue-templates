@@ -14,10 +14,9 @@ body:
   - type: checkboxes
     id: is-bug
     attributes:
-      label: Is this a bug?
-      description: Check if this is a bug.
+      label: Is this related to a bug?
       options:
-        - label: bug
+        - label: "Yes"
 
   - type: input
     id: bug-link
@@ -35,13 +34,12 @@ body:
     validations:
       required: true
 
-  # - type: checkboxes
-  #   id: deadline
-  #   attributes:
-  #     label: Is there a hard deadline?
-  #     description: Check if there is a hard deadline for the task.
-  #     options:
-  #       - label: Yes
+  - type: checkboxes
+    id: deadline
+    attributes:
+      label: Is there a hard deadline?
+      options:
+        - label: "Yes"
   
   - type: input
     id: deadline-date
