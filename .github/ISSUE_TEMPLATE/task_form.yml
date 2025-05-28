@@ -6,7 +6,6 @@ body:
     id: summary
     attributes:
       label: Brief Summary
-      description: Provide a brief summary of the task.
       placeholder: ex. Implement feature X
     validations:
       required: true
@@ -21,15 +20,14 @@ body:
   - type: input
     id: bug-link
     attributes:
-      label: Bug Link
-      description: Provide a link to the bug.
+      label: Issue Link
+      description: If this is related to a bug, provide a link to the issue.
       placeholder: ex. https://github.com/NethermindEth/Surge/issues/1
 
   - type: textarea
     id: details
     attributes:
       label: Task Details (Preferably TODOs)
-      description: Provide a detailed description of the task.
       placeholder: "- Task 1\n- Task 2\n- Task 3"
     validations:
       required: true
@@ -45,6 +43,5 @@ body:
     id: deadline-date
     attributes:
       label: Deadline Date
-      description: Provide a deadline for the task.
       placeholder: ex. 2025-01-01
       
