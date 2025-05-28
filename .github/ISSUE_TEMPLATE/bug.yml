@@ -51,4 +51,4 @@ body:
 
   - type: markdown
     attributes:
-      value: "## Please try to troubleshoot the issue with our documentation - https://docs.surge.wtf/docs/troubleshooting first."
+      value: ">Please try to troubleshoot the issue with our documentation - https://docs.surge.wtf/docs/troubleshooting first."
