@@ -17,7 +17,7 @@ body:
       label: Is this a bug?
       description: Check if this is a bug.
       options:
-        - label: Yes
+        - label: bug
 
   - type: input
     id: bug-link
