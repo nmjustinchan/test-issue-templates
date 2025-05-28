@@ -1,6 +1,7 @@
 name: Task
 description: Create a task.
 title: "[Task]: "
+type: "task"
 body:
   - type: input
     id: summary
