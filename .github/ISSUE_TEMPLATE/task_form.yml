@@ -10,3 +10,43 @@ body:
       placeholder: ex. Implement feature X
     validations:
       required: true
+
+  # - type: checkboxes
+  #   id: is-bug
+  #   attributes:
+  #     label: Is this a bug?
+  #     description: Check if this is a bug.
+  #     options:
+  #       - label: Yes
+
+  - type: input
+    id: bug-link
+    attributes:
+      label: Bug Link
+      description: Provide a link to the bug.
+      placeholder: ex. https://github.com/NethermindEth/Surge/issues/1
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Task Details (Preferably TODOs)
+      description: Provide a detailed description of the task.
+      placeholder: "- Task 1\n- Task 2\n- Task 3"
+    validations:
+      required: true
+
+  # - type: checkboxes
+  #   id: deadline
+  #   attributes:
+  #     label: Is there a hard deadline?
+  #     description: Check if there is a hard deadline for the task.
+  #     options:
+  #       - label: Yes
+  
+  - type: input
+    id: deadline-date
+    attributes:
+      label: Deadline Date
+      description: Provide a deadline for the task.
+      placeholder: ex. 2025-01-01
+      
